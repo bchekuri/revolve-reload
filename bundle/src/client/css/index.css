@@ -1,0 +1,179 @@
+body {
+    font-size: 1.1rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+.navbar-brand > span {
+    font-weight: 500;
+    font-size: 24px;
+    color:  #1abc9c;
+}
+
+.btn-rr:hover {
+    background-color: #24d8b5;
+    color: #fff;
+    border-color: #24d8b5;
+}
+
+
+.btn-rr {
+    background-color: #1abc9c;
+    color: #fff;
+    border-color: #1abc9c;
+}
+
+.nav-pills-rr {
+    border-width: 1px 0px 0px 1px;
+    border-style: solid;
+    border-color: #e1e4e8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nav-pills-rr .nav-link:hover {
+    background-color: #f6f8fa;
+}
+
+.nav-pills-rr .nav-link {
+    color: #1abc9c;
+}
+
+.nav-pills-rr li .nav-link {
+    border-bottom: 1px solid #e1e4e8;
+    border-right: 1px solid #e1e4e8;
+}
+
+.nav-pills-rr .nav-item.show .nav-link, .nav-pills-rr .nav-link.active {
+    border-right: 7px solid #1abc9c;
+}
+
+.footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer-bg {
+    background-color: #f8f8f8;
+}
+
+
+.hspacer30 {
+	padding-right: 30px;
+}
+
+.vspacer15 {
+    padding-top: 15px;
+}
+
+.vspacer10 {
+    padding-top: 10px;
+}
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 550;
+    letter-spacing: 0px;
+}
+
+.navbar-nav  li a:hover {
+    color: #ffffff !important;
+    background-color: #1abc9c !important;
+}
+
+.navbar-header a:hover {
+	color: #1abc9c !important;
+}
+
+.social-media a:hover {
+	color: #1abc9c;
+	cursor: pointer;
+}
+
+.social-media a {
+    color: #777;
+}
+
+.app-icon-color {
+    color: #1abc9c;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.app-name {
+    font-size: 22px;
+}
+
+.app-name-small {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.navbar-nav-custom {
+    margin-right: 52px;
+}
+
+.title_icon {
+    background-image: url("./img/refresh-64.png");
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+
+
+.app_img {
+    margin-right: 7px;
+    margin-top: -2px;
+}
+
+.div_highlight {
+    border-radius: 5px;
+    border: 1px solid #D6DBDF;
+    background-color: #F2F4F4;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.big_checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.complete_body_style {
+    background-image: url(./img/bgbody.png);
+}
+
+.copy_right {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.desc {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.app-icons {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.footer-text {
+    font-size: 16px;    
+}
+
+.panel-heading-text {
+    font-weight: bold;
+}
+
+
+select::-ms-expand { display: block; }

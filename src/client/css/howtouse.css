@@ -1,0 +1,27 @@
+.slider {
+    color: #ff7f27;
+}
+
+.slider-button-bg {
+    background-color: #1abc9c;
+}
+
+.slider-prev-next {
+    color: #1abc9c;
+}
+
+.carousel a:hover { 
+    color: #1abc9c !important;
+}
+
+.solid-border {
+    border: solid 1px #1abc9c;
+}
+
+.carousel-indicators .active {
+    background-color : #1abc9c !important;
+}
+
+.carousel-indicators li {
+    background-color : rgba(26, 188, 156, 0.4) !important;
+}

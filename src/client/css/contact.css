@@ -1,0 +1,31 @@
+.contact-me {
+    background-color: rgba(247, 247, 247, 0.8);
+}
+.contact-me .title {
+    font-size: 80px;
+    color: rgba(26, 188, 156, 0.6);
+}
+
+.contact-me .my-email {
+    color: rgba(26, 188, 156, 1);
+}
+
+.contact-me .my-email > a {
+    color: rgba(26, 188, 156, 1);
+}
+
+.contact-me .social {
+    font-size: 32px;
+}
+
+.contact-me .social .fa-facebook-square {
+    color: #3b5998;
+}
+
+.contact-me .social .fa-github-square {
+    color: #24292e;
+}
+
+.contact-me .social .fa-linkedin-square {
+    color: #0077B5;
+}

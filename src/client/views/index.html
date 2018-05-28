@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- inject:css -->
+    <!-- endinject -->
+
+    <title>Revolve & Reload</title>
+
+</head>
+<body ng-app="options" ng-controller="OptionsController as vm">
+    
+    <header class="pb-4">
+        <div class="container">
+            <nav class="navbar sticky-top navbar-light bg-faded navbar-toggleable-sm">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./../../../assets/img/logo-options-48.png" class="d-inline-block" alt="{{vm.title}}">
+                    <span>{{vm.title}}</span>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <div class="hidden-md-up my-3" ng-include="'./includes/navbar.html'">
+                    </div>
+                    <form class="form-inline my-2 my-lg-0 ml-auto">
+                        <input class="form-control form-control-md mr-sm-2 d-none" type="text" placeholder="Search">
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3 hidden-sm-down" ng-include="'./includes/navbar.html'">
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-9">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="options" role="tabpanel">
+                        <div ng-include="'options.html'" ></div> 
+                    </div>
+                    <div class="tab-pane" id="howtouse" role="tabpanel">
+                        <div ng-include="'howtouse.html'"></div> 
+                    </div>
+                    <div class="tab-pane" id="contactme" role="tabpanel">
+                        <div ng-include="'contact.html'"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer"> 
+        <div class="container footer-bg">
+        </div>
+    </footer>
+
+    <!-- inject:js -->
+    <!-- endinject -->
+
+</body>
+</html>

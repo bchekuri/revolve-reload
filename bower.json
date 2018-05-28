@@ -1,0 +1,25 @@
+{
+  "name": "RevolveReload",
+  "version": "1.3",
+  "homepage": "https://github.com/bchekuri/revolve-reload",
+  "authors": [
+    "BHARATH CHEKURI <chekuribharathtpt@gmail.com>"
+  ],
+  "description": "Chrome extenstion to revolve and reload/refresh chrome tabs at given intervels",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/thirdpartylibs"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "fontawesome#^4.7.0",
+    "tether": "^1.4.0",
+    "animate.css": "^3.5.2"
+  }
+}
